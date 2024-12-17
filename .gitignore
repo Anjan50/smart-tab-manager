@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Tailwind and PostCSS cache files (if any)
+.tailwindcache/
+.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Coverage output
+coverage/
+
+# Ignore lock files if you prefer yarn or pnpm over npm (optional)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignore webpack caches and stats files (if generated)
+webpack-stats.json
