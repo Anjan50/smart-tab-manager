@@ -6,7 +6,10 @@
     "permissions": [
       "tabs",
       "storage",
-      "system.memory"
+      "system.memory",
+      "bookmarks",
+      "topSites",
+      "idle"
     ],
     "action": {
       "default_popup": "public/popup.html"

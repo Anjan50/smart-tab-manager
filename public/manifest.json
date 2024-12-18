@@ -6,8 +6,14 @@
   "permissions": [
     "tabs",
     "storage",
-    "system.memory"
+    "system.memory",
+    "bookmarks",
+    "topSites",
+    "idle"
   ],
+
+  "host_permissions": ["https://buymeacoffee.com/*"],
+
   "action": {
     "default_popup": "public/popup.html"
   },
