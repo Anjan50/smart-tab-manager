@@ -9,7 +9,7 @@ const Navigation = ({ activeTab, onTabChange }) => {
       ];
 
   return (
-    <div className="px-4 flex gap-4 border-b">
+    <div className="px-4 flex gap-4 border-b mt-2">
       {tabs.map(tab => (
         <button
           key={tab.id}

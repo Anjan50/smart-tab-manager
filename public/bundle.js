@@ -592,6 +592,9 @@ video {
 .mr-2 {
   margin-right: 0.5rem;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .block {
   display: block;
 }
@@ -622,8 +625,8 @@ video {
 .h-6 {
   height: 1.5rem;
 }
-.max-h-\\[440px\\] {
-  max-height: 440px;
+.max-h-\\[430px\\] {
+  max-height: 430px;
 }
 .w-11 {
   width: 2.75rem;
@@ -2022,7 +2025,7 @@ var Navigation = function Navigation(_ref) {
     label: 'Settings'
   }];
   return /*#__PURE__*/react.createElement("div", {
-    className: "px-4 flex gap-4 border-b"
+    className: "px-4 flex gap-4 border-b mt-2"
   }, tabs.map(function (tab) {
     return /*#__PURE__*/react.createElement("button", {
       key: tab.id,
@@ -3150,7 +3153,7 @@ var TabManagerPopup = function TabManagerPopup() {
     activeTab: activeTab,
     onTabChange: setActiveTab
   }), /*#__PURE__*/react.createElement("div", {
-    className: "flex-1 max-h-[440px] overflow-y-auto hide-scrollbar"
+    className: "flex-1 max-h-[430px] overflow-y-auto hide-scrollbar"
   }, renderContent()), /*#__PURE__*/react.createElement("div", {
     className: "p-3 border-t bg-gray-50 hide-scrollbar"
   }, /*#__PURE__*/react.createElement(SupportLink, null)))));

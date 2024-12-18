@@ -122,7 +122,7 @@ const TabManagerPopup = () => {
           <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
 
           {/* Content Area */}
-          <div className="flex-1 max-h-[440px] overflow-y-auto hide-scrollbar">
+          <div className="flex-1 max-h-[430px] overflow-y-auto hide-scrollbar">
             {renderContent()}
           </div>
           {/* Support Link */}
